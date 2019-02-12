@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         emailField = (EditText)findViewById(R.id.email);
         share = getSharedPreferences("FileName", Context.MODE_PRIVATE);
         String saveEmail = share.getString("ReserveName", "");
-        emailField.setHint(saveEmail);
+        emailField.setText(saveEmail);
         nextButton.setOnClickListener( b -> {
 
             //Give directions to go from this page, to ProfileActivity

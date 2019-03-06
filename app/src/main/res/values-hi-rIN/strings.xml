@@ -1,28 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Android Labs</string>
-    <string name="widgets">यहाँ मेरे विजेट हैं:</string>
-    <string name="ButtonText">बटन</string>
-    <string name="check">इसकी जांच करें!</string>
-    <string name="Switch">चालू करना / बंद करना</string>
-    <string name="hint">अपना उत्तर यहां लिखें</string>
 
-    //** lab3 **//
+    <string name="app_name">AndroidLabs</string>
+    // Lab3 Strings
+    <string name="EmailtextView"> Enter Your Email Address: </string>
+    <string name="emailHint">Type your email here </string>
+    <string name="PasswordTextView">Type your password </string>
+    <string name="loginButton">Login</string>
 
-    <string name="Lab3TextView1">Enter your email address:</string>
-    <string name="Lab3TextView2">Enter your password:</string>
-    <string name="Lab3EmailHint">Type email here:</string>
-    <string name="Lab3LoginBtnText">Login</string>
-    <string name="ProfileText">Your profile</string>
-    <string name="NameText">Your name:</string>
-    <string name="NameHintText">Enter your name</string>
-    <string name="EmailTextViewText">Your email:</string>
-    <string name="EmailHintText">Enter your email</string>
-    <string name="PictureTextView">Your picture:</string>
-    <string name="ImagePictureTextView">Click the button above to take a picture</string>
-    <string name="GoToChatText">Go To Chat</string>
-    <string name="SendText">Send</string>
-    <string name="ReceiveText">Receive</string>
-    <string name="ChatHint">Type here</string>
+
+    //ProfitActivity Strings
+    <string name="profile">Your Profile</string>
+    <string name="nameTextView">Your Name</string>
+    <string name="name">Enter Your Name</string>
+    <string name="emailTextview">Your Email</string>
+    <string name="profileTextView">Your Picture</string>
+    <string name="pictureText">click the button above to take a picture</string>
+
+    //Lab4 Strings and Lab5
+    <string name="chatButtonText">Go to Chat</string>
+    <string name="lstViewBtnTextSend">Send</string>
+    <string name="lstTextViewHint">Type Here</string>
+    <string name="lstViewBtnTextReceive">Receive</string>
+
 
 </resources>
